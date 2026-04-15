@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- SEARCH ICON -->
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:iconTint="?attr/colorOnPrimary" />
+
+    <!-- MASUK TITIK TIGA -->
+    <item
+        android:id="@+id/actionmenu1"
+        android:title="Mobile Legends"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/actionmenu2"
+        android:title="PUBG"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/actionmenu3"
+        android:title="Valorant"
+        app:showAsAction="never"/>
+
+</menu>
